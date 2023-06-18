@@ -1,0 +1,141 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+@keyframes bg-move {
+  0% {
+    background-position: -500px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+  background: #fff;
+}
+
+.default {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.pattern {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: overlay;
+  background: center repeat;
+  background-size: 420px auto;
+  opacity: 0.3;
+  background-image: url(/img/pattern.svg);
+}
+
+.teleBody {
+  padding: 70px 16px 40px;
+  font-family: "Roboto", sans-serif;
+}
+
+.page {
+  position: relative;
+  margin: 16px auto;
+  padding: 32px 0;
+  max-width: 400px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  transition: all 0.15s ease 0.15s;
+  .logo {
+    text-align: center;
+    padding-bottom: 16px;
+    img {
+      width: 122px;
+      height: 122px;
+    }
+  }
+}
+
+.title {
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: bold;
+  text-align: center;
+  max-width: 340px;
+  padding: 0 10px;
+  margin: 0 auto;
+  color: #000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.description {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 125px;
+  word-break: break-word;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  margin: 10px 16px 0;
+  padding: 0;
+  color: #000;
+}
+
+.action {
+  text-align: center;
+  margin-top: 24px;
+  line-height: 0;
+  .button {
+    background-image: linear-gradient(
+      270deg,
+      rgba(100, 181, 239, 0) 48.44%,
+      #64b5ef 75.52%,
+      rgba(100, 181, 239, 0) 100%
+    ) !important;
+    background-repeat: no-repeat !important;
+    animation: bg-move linear 5s infinite !important;
+    background-color: #2481cc !important;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    color: #fff !important;
+    background: #5dc390;
+    border-radius: 22px;
+    overflow: hidden;
+    display: inline-block;
+    padding: 13px 24px;
+    text-transform: uppercase;
+    vertical-align: top;
+    text-decoration: none;
+  }
+}
+
+.action a.button {
+  color: #2481cc;
+  background: transparent;
+  box-shadow: inset 0 0 0 2px #2481cc;
+}
+.action a.button:hover,
+.action a.button:active {
+  color: #2481cc;
+  background: transparent;
+  text-decoration: none;
+}
