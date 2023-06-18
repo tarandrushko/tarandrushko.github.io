@@ -35,7 +35,6 @@ function App() {
           className={styles.default}
           width="50"
           height="50"
-          // data-colors="dbddbb,6ba587,d5d88d,88b884"
         />
         <div className={styles.pattern}></div>
       </div>
@@ -52,15 +51,7 @@ function App() {
             vida RICA.
             <br />
             <br />
-            💸 Junte-se ao canal e compartilhe com seus amigos
-            -https://t.me/+tcwLfI18Og8zZDMy
-            <br />
-            <br />
             🚀Aceitando todos!🚀
-            <br />
-            <br />
-            📬Para qualquer dúvida, me envie uma mensagem -{" "}
-            <a href="https://t.me/CarlosAviatorSignal">@CarlosAviatorSignal</a>
           </div>
           <div className={styles.action}>
             <a
