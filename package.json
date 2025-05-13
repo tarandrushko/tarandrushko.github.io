@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "16.x.x",
+    "node": "18.x",
     "yarn": ">=1.21.0"
   },
   "dependencies": {
