@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import styles from "./styles.module.scss";
-import logo from "./img/logo.jpg";
+import logo from "./img/logo1.jpg";
 
 function App() {
   const ref = useRef<HTMLCanvasElement | null>(null);
@@ -35,7 +35,6 @@ function App() {
           className={styles.default}
           width="50"
           height="50"
-          // data-colors="dbddbb,6ba587,d5d88d,88b884"
         />
         <div className={styles.pattern}></div>
       </div>
@@ -45,22 +44,11 @@ function App() {
             <img src={logo} alt="logo" />
           </div>
           <div className={styles.title} dir="auto">
-            <span dir="auto">CARLOS 🚀AVIATOR🚀SIGNAL</span>
+            <span dir="auto">Spectre 👓</span>
           </div>
           <div className={styles.description} dir="auto">
-            😎Oi, pessoal! Se você está aqui, está no caminho certo para uma
-            vida RICA.
-            <br />
-            <br />
-            💸 Junte-se ao canal e compartilhe com seus amigos
-            -https://t.me/+tcwLfI18Og8zZDMy
-            <br />
-            <br />
-            🚀Aceitando todos!🚀
-            <br />
-            <br />
-            📬Para qualquer dúvida, me envie uma mensagem -{" "}
-            <a href="https://t.me/CarlosAviatorSignal">@CarlosAviatorSignal</a>
+            Community for people who ready to know more and ready to make great
+            results ✅
           </div>
           <div className={styles.action}>
             <a
