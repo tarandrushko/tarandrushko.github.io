@@ -47,8 +47,8 @@ function App() {
             <span dir="auto">Spectre 👓</span>
           </div>
           <div className={styles.description} dir="auto">
-            Community for people who ready to know more and ready to make great
-            results ✅
+            Structured crypto futures trading. Backed by data, built on
+            experience ✅
           </div>
           <div className={styles.action}>
             <a
