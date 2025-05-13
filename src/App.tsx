@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import styles from "./styles.module.scss";
-import logo from "./img/logo.jpg";
+import logo from "./img/logo1.jpg";
 
 function App() {
   const ref = useRef<HTMLCanvasElement | null>(null);
@@ -44,14 +44,11 @@ function App() {
             <img src={logo} alt="logo" />
           </div>
           <div className={styles.title} dir="auto">
-            <span dir="auto">CARLOS 🚀AVIATOR🚀SIGNAL</span>
+            <span dir="auto">Spectre 👓</span>
           </div>
           <div className={styles.description} dir="auto">
-            😎Oi, pessoal! Se você está aqui, está no caminho certo para uma
-            vida RICA.
-            <br />
-            <br />
-            🚀Aceitando todos!🚀
+            Community for people who ready to know more and ready to make great
+            results ✅
           </div>
           <div className={styles.action}>
             <a
