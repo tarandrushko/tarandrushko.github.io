@@ -54,7 +54,7 @@ function App() {
             <a
               ref={btnRef}
               className={styles.button}
-              href="tg://join?invite=IOcJx_J-bLszMGEy"
+              href="tg://join?invite=Oq0pxCrHCBNiOWYy"
             >
               Join Channel
             </a>
